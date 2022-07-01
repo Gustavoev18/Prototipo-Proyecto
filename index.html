@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Gustavo Espejo">
+    <title>Prototipo pagina ingenieria en multimedia</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <link href="headers.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <div class="logo">
+        <h1><a href="index.html" style="padding: 72px;"><img width="32" height="32" src="https://lh3.googleusercontent.com/7WyWfyMXTvhAQgm2xQ7FW6ca246Lg_IELpbWoWVMIVw6T5uGIaoLTGFUJJ48VIRK5_CFrK9NAuRKAOnBaUbSk8E=w16383" alt="" class="img-fluid"></a>
+      </div>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <li><a href="carrera.html" class="nav-link px-2 link-secondary">Carrera</a></li>
+        <li><a href="estudiantes.html" class="nav-link px-2 link-dark">Estudiantes</a></li>
+        <li><a href="docentes.html" class="nav-link px-2 link-dark">Docentes</a></li>
+        <li><a href="investigacion.html" class="nav-link px-2 link-dark">Investigación</a></li>
+        <li><a href="eventos.html" class="nav-link px-2 link-dark">Eventos</a></li>
+        <li><a href="portfolio.html" class="nav-link px-2 link-dark">Portafolio</a></li>
+      </ul>
+
+      <div class="col-md-3 text-end">
+        
+          <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+        
+      </div>
+    </header>
+
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="https://themes.googleusercontent.com/image?id=wltVPUckfSK9W7r7g9igwymWBEo331nLn9RtDt0jiRzLWLfYn17ncXNLjzi6gMZd0cE2mcKHh5eh" alt="Imagen 1">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>20 años construyendo futuro</h1>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="https://lh5.googleusercontent.com/jdGzBfTpqp_lJMSO0WtJewQpLtxwlpyQ9Gc7ZcctxBLMauEmjdW53yleI3iTEJj_S_9i56nJlN-5RWbaD1hOVic=w16383" alt="Imagen 2">
+        <div class="container">
+          <div class="carousel-caption">
+            <p>Diferentes áreas de formación</p>
+          
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="https://pbs.twimg.com/media/EPsxqpCXsAMY0do?format=jpg&name=large" alt="Imagen 3">
+        <div class="container">
+          <div class="carousel-caption">
+            
+            <p>Accede a los diferentes programas que ofrece Bienestar Estudiantil</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  
+    <p class="lead text-muted" style="padding: 30px; text-align: center;">Este es un espacio virtual del programa de Ingeniería en Multimedia de la Universidad Militar Nueva Granada, 
+      en el que se encuentran noticias e información académica y cultural sobre el programa, sus estudiantes, docentes y egresados</p>
+
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading" style="margin: 72px;">Sede Campus Nueva Granada</h2>
+        <p class="lead" style="margin: 72px;"><a href="mailto:multimedia.campus@unimilitar.edu.co">multimedia.campus@unimilitar.edu.co</a><br> <span class="font-weight-bold">Directora:</span> Ing. Laura Cortés.<br>Asistente: Yamile Bonilla</p>
+      </div>
+      <div class="col-md-5" style="border: 72px;">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://lh3.googleusercontent.com/2FBz4-rMJ_BSk5BNRWZWhTuPsnssF7h6ZslhBoBTJTCQ1BT5FqSVax0QCpr1wN2crOq1dMmwspZvz7vSp-vQi6c=w16383" alt="Imagen Campus" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading" style="margin: 72px;">¡Autoevaluación y renovación!</h2>
+        <p class="lead" style="margin: 72px;">Registro calificado vigente: <br>Resolución 009977 del MEN, del 19 de septiembre de 2019, por un lapso de 7 años. Ampliación del lugar de desarrollo a Cajicá según resolución 6358 del MEN, de mayo de 2013.<br> Acreditación de Alta Calidad: <br>Resolución 009724 del MEN, del 11 de septiembre de 2019, por un lapso de 4 años.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"  width="500" height="500" src="https://lh6.googleusercontent.com/oWMM3dgm5QFY7trs4CsJCxnvEKiy-X2CMxtSHgogWzxVmdhFe_UmYOUHFskEwVZDNVhgxqucfYjxhIOJrIFhtOkMNNQ2_Pqdx8QSiJaDvE5Vp6FNu_uZhT_CHNaaSZ9D6w=w1280" alt="Imagen Registro" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading" style="margin:72px;">Proximos Eventos</h2><h4 class="text-primary" style="margin: 72px;">Ver todos</h4>
+        <p class="lead" style="margin: 72px;">Imaginatio</p>
+      </div>
+      <div class="col-md-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="https://lh6.googleusercontent.com/toB0GtNzF75VUsGa3iCzeoPzKH1GHxS3eNDpnhS6kRrBhJMemQOWU3ZYSGeZgnNlWF9baahV5Z5eiSrkjK2H9T1V0NzPXcvfazPd5CEVs8qPYiFp=w1280" alt="Imagen Eventos" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/></img>
+        
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="bg-white text-secondary text-center text-md-start">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase"><img width="32" height="32" style="margin-right: 20px;" src="https://lh3.googleusercontent.com/7WyWfyMXTvhAQgm2xQ7FW6ca246Lg_IELpbWoWVMIVw6T5uGIaoLTGFUJJ48VIRK5_CFrK9NAuRKAOnBaUbSk8E=w16383" alt="" class="img-fluid">Ingeniería en Multimedia</h5>
+
+          <p>
+            © 2022 Ingeniería en Multimedia Universidad Militar Nueva Granada
+          </p>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-secondary">Carrera</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Docentes</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Eventos</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-secondary">Estudiantes</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Investigación</a>
+            </li>
+            <li>
+              <a href="#!" class="text-secondary">Portafolio</a>
+            </li>
+
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
